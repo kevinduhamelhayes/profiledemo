@@ -5,20 +5,16 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-left">
           <ul>
+            <li>meet me at</li>
             <li>
-              {" "}
-              <a href="#">Home</a>{" "}
-            </li>
-            <li>
-              {" "}
-              <a href="#">Stack</a>{" "}
+              <a href="www.linkedin.com/in/kevin-duhamel-hayes">Linkedin</a>
             </li>
           </ul>
         </div>
         <div className="footer-rigth">
           <ul>
             <li>
-              <a href="https://github.com/kevinduhamelhayes">Gibhub</a>
+              <a href="https://github.com/kevinduhamelhayes"></a>
             </li>
             <li>
               {" "}

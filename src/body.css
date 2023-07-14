@@ -1,0 +1,21 @@
+.container-body {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.container-body-fig-left {
+  flex: 1;
+}
+
+.container-body-text-right {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
