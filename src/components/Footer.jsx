@@ -1,5 +1,5 @@
 import "./styles/Footer.css"
-export default function Footer() {
+export default function Footer({ theme }) {
   return (
     <nav className="footer">
       <div className="footer-content">
