@@ -2,14 +2,14 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: var(--third-bg-color);
   padding: 10px 20px;
   z-index: 999;
   display: flex;
   justify-content: center;
   width: 100%;
+  box-shadow: 0px 0px 5px var(--primary-color);
   font-size: large;
-  color: #333;
 }
 .footer-content {
   display: flex;
@@ -19,6 +19,7 @@
 }
 
 .footer ul {
+  color: var(--primary-color);
   margin-top: 10px;
   list-style: none;
   display: flex;
@@ -27,10 +28,16 @@
   margin-right: 20px;
 }
 .footer li {
+  color: var(--primary-color);
   margin-top: 5px;
   font-size: larger;
 }
 .footer a {
   text-decoration: none;
-  color: #333;
+  color: var(--primary-color);
+}
+.footer-li:hover {
+  color: var(--secondary-color);
+  text-shadow: 0px 0px 1px var(--primary-color);
+  text-decoration: underline;
 }
