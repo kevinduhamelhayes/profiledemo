@@ -16,7 +16,7 @@ export default function Navbar({ theme }) {
             </li>
             <li className="navbar-li">
               {" "}
-              <a href="#">Contact</a>{" "}
+              <a href="mailto:kevinduhamelh@gmail.com">Contact</a>{" "}
             </li>
           </ul>
         </div>

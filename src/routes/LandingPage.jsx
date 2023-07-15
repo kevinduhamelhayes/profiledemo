@@ -1,11 +1,11 @@
 import Body from "../components/Body"
 import Projects from "../components/Projects"
-
+import "./stylesroutes/LandingPage.css"
 export default function LandingPage() {
   return (
-    <div className="landingPage">
+    <section className="landingPage">
       <Body />
       <Projects />
-    </div>
+    </section>
   )
 }

@@ -18,7 +18,7 @@ export default function Footer({ theme }) {
             </li>
             <li className="footer-li">
               {" "}
-              <a href="#">Contact</a>{" "}
+              <a href="mailto:kevinduhamelh@gmail.com">Contact</a>{" "}
             </li>
           </ul>
         </div>

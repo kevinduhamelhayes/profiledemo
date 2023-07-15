@@ -14,7 +14,7 @@ const App = () => {
   }
 
   return (
-    <div className={`app ${theme}`}>
+    <div className={`App ${theme}`}>
       <BrowserRouter>
         <Navbar theme={theme} handleTheme={handleTheme} />
         <Routes>
