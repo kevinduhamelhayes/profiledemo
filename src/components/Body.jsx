@@ -7,7 +7,7 @@ export default function Body() {
         <figure>
           <img
             className="round-image"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMCwWIl3IB4NtljbWmzj3iNjZ8uVBabbgIg&usqp=CAU"
+            src="https://img.freepik.com/vetores-gratis/vetor-de-gradiente-de-logotipo-colorido-de-passaro_343694-1365.jpg"
             alt="mi imagen de presentacion"
           />
         </figure>

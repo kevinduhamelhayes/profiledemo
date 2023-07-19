@@ -1,12 +1,17 @@
 import "./styles/Navbar.css"
+import { Link } from "react-router-dom"
 export default function Navbar({ theme }) {
   return (
     <nav className="navbar">
       <div className="navbar-content">
         <div className="navbar-left">
           <ul>
-            <li className="navbar-li">home</li>
-            <li className="navbar-li">stack</li>
+            <li className="navbar-li">
+              <Link to="/">home</Link>
+            </li>
+            <li className="navbar-li">
+              <Link to="/stack">stack</Link>
+            </li>
           </ul>
         </div>
         <div className="navbar-rigth">

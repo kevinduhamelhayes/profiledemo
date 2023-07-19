@@ -8,17 +8,35 @@
 .grid-2-2 {
   display: grid;
   margin-top: 50px;
-  align-items: center;
-  justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  max-width: 1200px;
 }
 .container-tarj- {
   background-color: var(--third-bg-color);
   border-radius: 10px;
   padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center ;
+  justify-content: space-between
 }
 .container-tarj-:hover {
   box-shadow: 0px 0px 10px var(--primary-color);
   transition: 0.5s;
+}
+.round-image-projects{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+.figure{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
