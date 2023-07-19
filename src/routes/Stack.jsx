@@ -166,22 +166,6 @@ export default function Stack() {
               <DiScrum color="#FF9308" size={"1.5em"} />
               Scrum
             </li>
-            <li className="li-soft-skills">
-              <BiLogoGithub color="#420897" size={"1.5em"} />
-              GitHub
-            </li>
-            <li className="li-soft-skills">
-              <BiLogoGithub color="#420897" size={"1.5em"} />
-              GitHub
-            </li>
-            <li className="li-soft-skills">
-              <BiLogoGithub color="#420897" size={"1.5em"} />
-              GitHub
-            </li>
-            <li className="li-soft-skills">
-              <BiLogoGithub color="#420897" size={"1.5em"} />
-              GitHub
-            </li>
           </ul>
         </div>
       </div>

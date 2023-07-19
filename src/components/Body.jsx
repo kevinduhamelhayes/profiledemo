@@ -13,8 +13,8 @@ export default function Body() {
         </figure>
       </div>
       <div className="container-body-text-right">
-        <h1>Hola soy Kevin</h1>
-        <p>
+        <h1 className="title-name">Hola soy Kevin</h1>
+        <p className="paragraph-ppal">
           Hi there! I'm Ian, a passionate frontend developer and tech enthusiast
           from Argentina. This is my digital showroom, where I showcase some of
           my most interesting development projects. I'm excited to share them
